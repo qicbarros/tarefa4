@@ -22,7 +22,8 @@ const url=req.body.url;
 console.log(url);
 const code=generateCode();
 
-res.send('http://localhost:3000' + code);
+//res.send('http://localhost:3000' + code);
+res.send("valendo nota");
 })
 
 module.exports = router;
